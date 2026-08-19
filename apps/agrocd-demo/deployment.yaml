@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: agrocd-demo
-          image: agrocd-demo:1.1.0
+          image: ghcr.io/derryman101/agrocd-demo:863ee842d7da79b8773b596b6c710e344733ccad
           imagePullPolicy: IfNotPresent
 
           ports:
