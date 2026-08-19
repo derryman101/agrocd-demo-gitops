@@ -19,11 +19,11 @@ spec:
     spec:
       containers:
         - name: agrocd-demo
-          image: ghcr.io/derryman101/agrocd-demo:9d01f25d90068745dd5c031bbdcdec1125d69467
+          image: ghcr.io/derryman101/agrocd-demo:e2961d13ff6e5c5f886ec81e24154f7307e5f854
           imagePullPolicy: IfNotPresent
           env:
             - name: GIT_SHA
-              value: "9d01f25d90068745dd5c031bbdcdec1125d69467"
+              value: "e2961d13ff6e5c5f886ec81e24154f7307e5f854"
 
           ports:
             - containerPort: 3001
