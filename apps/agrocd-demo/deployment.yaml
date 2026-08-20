@@ -19,11 +19,13 @@ spec:
     spec:
       containers:
         - name: agrocd-demo
-          image: ghcr.io/derryman101/agrocd-demo:60a2abc200c3f22e9cbce3ad551ae68a18146587
+          image: ghcr.io/derryman101/agrocd-demo:b01d557c3b9747944bb4acdaffe3132231c04e87
           imagePullPolicy: IfNotPresent
           env:
             - name: APP_ENV
               value: "Kubernetes"
+            - name: GIT_SHA
+              value: "b01d557c3b9747944bb4acdaffe3132231c04e87"
           env:
             - name: GIT_SHA
               value: "60a2abc200c3f22e9cbce3ad551ae68a18146587"
